@@ -1,0 +1,226 @@
+/* File: admin/css/admin.css */
+
+.ait-container {
+    padding: 20px;
+}
+
+/* Tables */
+.ait-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+}
+
+.ait-table th,
+.ait-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccd0d4;
+}
+
+.ait-table th {
+    background: #f8f9fa;
+    font-weight: 600;
+}
+
+.ait-table tr:hover {
+    background: #f8f9fa;
+}
+
+/* Buttons */
+.ait-button {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #2271b1;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 1.5;
+    transition: all 0.2s ease;
+}
+
+.ait-button:hover {
+    background: #135e96;
+    color: #fff;
+}
+
+.ait-button.secondary {
+    background: #f0f0f1;
+    color: #2c3338;
+    border: 1px solid #2c3338;
+}
+
+.ait-button.secondary:hover {
+    background: #2c3338;
+    color: #fff;
+}
+
+/* Modal */
+.ait-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 100000;
+}
+
+.ait-modal.active {
+    display: block;
+}
+
+.ait-modal-content {
+    position: relative;
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 3px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.ait-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #666;
+}
+
+.ait-modal-close:hover {
+    color: #000;
+}
+
+/* Translation Interface */
+.ait-translation-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.ait-content-box {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #f8f9fa;
+}
+
+.ait-content-box h3 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Loading States */
+.loading {
+    position: relative;
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.loading:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #ccc;
+    border-top-color: #2271b1;
+    border-radius: 50%;
+    animation: ait-spin 1s linear infinite;
+}
+
+@keyframes ait-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Language Selection */
+.ait-language-selector {
+    margin: 20px 0;
+}
+
+.ait-language-selector select {
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Status Indicators */
+.ait-status {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.ait-status.pending {
+    background: #fef8ee;
+    color: #dd8600;
+}
+
+.ait-status.completed {
+    background: #edfaef;
+    color: #00a32a;
+}
+
+.ait-status.error {
+    background: #fcf0f1;
+    color: #d63638;
+}
+
+/* Bulk Translation */
+.ait-bulk-actions {
+    margin: 20px 0;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Settings Page */
+.ait-settings-container {
+    max-width: 800px;
+    margin: 20px 0;
+}
+
+.ait-settings-section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccd0d4;
+}
+
+.ait-settings-section h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 782px) {
+    .ait-translation-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .ait-bulk-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}

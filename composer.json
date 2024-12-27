@@ -1,0 +1,48 @@
+{
+    "name": "your-vendor/ai-translator",
+    "description": "AI-powered content translation plugin with WPML & ACF compatibility",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your@email.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+        "wp-coding-standards/wpcs": "^2.3",
+        "phpcompatibility/phpcompatibility-wp": "^2.1",
+        "yoast/phpunit-polyfills": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AITranslator\\": "includes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AITranslator\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "phpcs": "phpcs",
+        "phpcbf": "phpcbf",
+        "make-pot": "wp i18n make-pot . languages/ai-translator.pot",
+        "post-install-cmd": [
+            "@php -r \"file_exists('.git/hooks/pre-commit') || copy('dev-tools/pre-commit', '.git/hooks/pre-commit');\""
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

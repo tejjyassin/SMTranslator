@@ -1,0 +1,217 @@
+
+#: includes/class-ajax-handlers.php:84
+msgid "No posts selected"
+msgstr ""
+
+#: includes/class-ajax-handlers.php:132
+msgid "Invalid parameters"
+msgstr ""
+
+#: includes/class-ajax-handlers.php:166
+msgid "Posts added to translation queue"
+msgstr ""
+
+#: admin/views/main-page.php:8
+msgid "Select All"
+msgstr ""
+
+#: admin/views/main-page.php:11
+msgid "Bulk Translate"
+msgstr ""
+
+#: admin/views/main-page.php:21
+msgid "Title"
+msgstr ""
+
+#: admin/views/main-page.php:22
+msgid "Type"
+msgstr ""
+
+#: admin/views/main-page.php:23
+msgid "Language"
+msgstr ""
+
+#: admin/views/main-page.php:24
+msgid "Translation Status"
+msgstr ""
+
+#: admin/views/main-page.php:25
+msgid "Actions"
+msgstr ""
+
+#: admin/views/main-page.php:89
+msgid "No posts found."
+msgstr ""
+
+#: admin/views/main-page.php:116
+msgid "Translate Content"
+msgstr ""
+
+#: admin/views/main-page.php:119
+msgid "Select Target Languages"
+msgstr ""
+
+#: admin/views/main-page.php:142
+msgid "Original Content"
+msgstr ""
+
+#: admin/views/main-page.php:146
+msgid "Translation Status"
+msgstr ""
+
+#: admin/views/main-page.php:152
+msgid "Start Translation"
+msgstr ""
+
+#: admin/views/main-page.php:161
+msgid "Bulk Translation"
+msgstr ""
+
+#: admin/views/settings-page.php:73
+msgid "Enter your OpenAI API key. You can get one from your OpenAI dashboard."
+msgstr ""
+
+#: admin/views/settings-page.php:96
+msgid "Select the source language for content translation."
+msgstr ""
+
+#: admin/views/settings-page.php:119
+msgid "Select the target languages for translation."
+msgstr ""
+
+#: admin/views/settings-page.php:142
+msgid "Select which post types should be available for translation."
+msgstr ""
+
+#: admin/views/settings-page.php:165
+msgid "Number of posts to process in each batch (1-20)."
+msgstr ""
+
+#: includes/class-notice-handler.php:91
+msgid "AI Translator database tables are missing. Please deactivate and reactivate the plugin."
+msgstr ""
+
+#: includes/class-notice-handler.php:98
+msgid "OpenAI API key is not configured. Please add it in the settings."
+msgstr ""
+
+#: includes/api/class-openai.php:45
+msgid "OpenAI API key is not configured"
+msgstr ""
+
+#: includes/api/class-openai.php:78
+msgid "Invalid response from OpenAI API"
+msgstr ""
+
+#: includes/translation/class-manager.php:42
+msgid "Translation already exists for this language"
+msgstr ""
+
+
+#: includes/class-ajax-handlers.php:84
+msgid "No posts selected"
+msgstr ""
+
+#: includes/class-ajax-handlers.php:132
+msgid "Invalid parameters"
+msgstr ""
+
+#: includes/class-ajax-handlers.php:166
+msgid "Posts added to translation queue"
+msgstr ""
+
+#: admin/views/main-page.php:8
+msgid "Select All"
+msgstr ""
+
+#: admin/views/main-page.php:11
+msgid "Bulk Translate"
+msgstr ""
+
+#: admin/views/main-page.php:21
+msgid "Title"
+msgstr ""
+
+#: admin/views/main-page.php:22
+msgid "Type"
+msgstr ""
+
+#: admin/views/main-page.php:23
+msgid "Language"
+msgstr ""
+
+#: admin/views/main-page.php:24
+msgid "Translation Status"
+msgstr ""
+
+#: admin/views/main-page.php:25
+msgid "Actions"
+msgstr ""
+
+#: admin/views/main-page.php:89
+msgid "No posts found."
+msgstr ""
+
+#: admin/views/main-page.php:116
+msgid "Translate Content"
+msgstr ""
+
+#: admin/views/main-page.php:119
+msgid "Select Target Languages"
+msgstr ""
+
+#: admin/views/main-page.php:142
+msgid "Original Content"
+msgstr ""
+
+#: admin/views/main-page.php:146
+msgid "Translation Status"
+msgstr ""
+
+#: admin/views/main-page.php:152
+msgid "Start Translation"
+msgstr ""
+
+#: admin/views/main-page.php:161
+msgid "Bulk Translation"
+msgstr ""
+
+#: admin/views/settings-page.php:73
+msgid "Enter your OpenAI API key. You can get one from your OpenAI dashboard."
+msgstr ""
+
+#: admin/views/settings-page.php:96
+msgid "Select the source language for content translation."
+msgstr ""
+
+#: admin/views/settings-page.php:119
+msgid "Select the target languages for translation."
+msgstr ""
+
+#: admin/views/settings-page.php:142
+msgid "Select which post types should be available for translation."
+msgstr ""
+
+#: admin/views/settings-page.php:165
+msgid "Number of posts to process in each batch (1-20)."
+msgstr ""
+
+#: includes/class-notice-handler.php:91
+msgid "AI Translator database tables are missing. Please deactivate and reactivate the plugin."
+msgstr ""
+
+#: includes/class-notice-handler.php:98
+msgid "OpenAI API key is not configured. Please add it in the settings."
+msgstr ""
+
+#: includes/api/class-openai.php:45
+msgid "OpenAI API key is not configured"
+msgstr ""
+
+#: includes/api/class-openai.php:78
+msgid "Invalid response from OpenAI API"
+msgstr ""
+
+#: includes/translation/class-manager.php:42
+msgid "Translation already exists for this language"
+msgstr ""
